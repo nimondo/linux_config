@@ -18,9 +18,9 @@ url of application :
 Http://165.22.213.128
 
 ## Requirements	
-app installed
-sqlalchemy
-sqlalchemy.orm
+ app installed
+ sqlalchemy
+ sqlalchemy.orm
 sqlalchemy.ext.declarative
 os
 sys

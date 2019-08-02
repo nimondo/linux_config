@@ -5,6 +5,7 @@
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
 - [Requirements](#requirements)
+- [Configuration](#configuration)
 - [Rsa key](#rsa key)
 
 ## Intro
@@ -30,19 +31,19 @@ string
 httplib2
 json
 requests
+## configuration
+The SSH key submitted with the project can be used to log in as grader on the server.
+You cannot log in as root remotely.
+The grader user can run commands using sudo to inspect files that are readable only by root.
+Only allow connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
+Key-based SSH authentication is enforced.
+All system packages have been updated to most recent versions.
+SSH is hosted on non-default port.
+The web server responds on port 80.
+Database server has been configured to serve data (PostgreSQL is recommended)
+Web server has been configured to serve the Item Catalog application as a WSGI app.
 ## rsa key
------BEGIN RSA PRIVATE KEY-----
-MIICXAIBAAKBgQCqGKukO1De7zhZj6+H0qtjTkVxwTCpvKe4eCZ0FPqri0cb2JZfXJ/DgYSF6vUp
-wmJG8wVQZKjeGcjDOL5UlsuusFncCzWBQ7RKNUSesmQRMSGkVb1/3j+skZ6UtW+5u09lHNsj6tQ5
-1s1SPrCBkedbNf0Tp0GbMJDyR4e9T04ZZwIDAQABAoGAFijko56+qGyN8M0RVyaRAXz++xTqHBLh
-3tx4VgMtrQ+WEgCjhoTwo23KMBAuJGSYnRmoBZM3lMfTKevIkAidPExvYCdm5dYq3XToLkkLv5L2
-pIIVOFMDG+KESnAFV7l2c+cnzRMW0+b6f8mR1CJzZuxVLL6Q02fvLi55/mbSYxECQQDeAw6fiIQX
-GukBI4eMZZt4nscy2o12KyYner3VpoeE+Np2q+Z3pvAMd/aNzQ/W9WaI+NRfcxUJrmfPwIGm63il
-AkEAxCL5HQb2bQr4ByorcMWm/hEP2MZzROV73yF41hPsRC9m66KrheO9HPTJuo3/9s5p+sqGxOlF
-L0NDt4SkosjgGwJAFklyR1uZ/wPJjj611cdBcztlPdqoxssQGnh85BzCj/u3WqBpE2vjvyyvyI5k
-X6zk7S0ljKtt2jny2+00VsBerQJBAJGC1Mg5Oydo5NwD6BiROrPxGo2bpTbu/fhrT8ebHkTz2epl
-U9VQQSQzY1oZMVX8i1m5WUTLPz2yLJIBQVdXqhMCQBGoiuSoSjafUhV7i1cEGpb88h5NBYZzWXGZ
-37sJ5QsW+sJyoNde3xH8vdXhzU7eT82D6X/scw9RZz+/6rCJ4p0=
------END RSA PRIVATE KEY-----
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCioa1npF/dWGivTb9fxrMPNyF0XHloLGlFHMNLrF$
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCioa1npF/dWGivTb9fxrMPNyF0XHloLGlFHMNLrF$
  
 [(Back to TOC)](#table-of-contents)

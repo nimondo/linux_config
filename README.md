@@ -11,7 +11,8 @@
 
 to access the project
 IP: 165.22.213.128
-SSH : user grader pass Udacity12
+user and password : user grader pass Udacity12
+SSH login: grader@165.22.213.128 passPhrase: 'My Udacity Work'
 url of application :
 Http://165.22.213.128
 

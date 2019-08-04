@@ -6,6 +6,7 @@
 - [Intro](#intro)
 - [Requirements](#requirements)
 - [Configuration](#configuration)
+- [resource](#resource)
 - [Rsa key](#rsa key)
 
 ## Intro
@@ -75,5 +76,9 @@ EK23XX65xDHE1NF78ARGkJouauHV7RSZFYsAMHBGfvs5rC1odIyVuIkGrzl+Mk1j
 7EouDbcCIgarEQnMERG9WbaM6nQQd+B9XT+JFNLMzhgFxcMrLnK4VmX0x//4k665
 
 -----END RSA PRIVATE KEY-----
- 
+ ## resource
+ - [udacity](https://www.udaity.com)
+ - [ufw](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04)
+ - [ssh configuration](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+ - [How To Deploy a Flask Application on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 [(Back to TOC)](#table-of-contents)
